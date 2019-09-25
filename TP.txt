@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{graphicx}
+\graphicspath{{"C:/Users/user/Desktop/ENSIAS/GL/"} {./GL/ }}
+\begin{document}
+
+\title{First {\LaTeX} document}
+\author{El Aiche Dalia}
+\date{February 2019}
+\maketitle 
+
+\begin{abstract}
+this is the abstract
+\end{abstract}
+\section{intro}
+This is an intro
+\section{second section}
+this is a section
+\subsection{first subsection}
+this a subsection
+\section*{unumbered section}
+Hello
+\begin{figure}[h] 
+\centering
+\includegraphics[width=0.25\textwidth]{DonaldKnuth.png} 
+\caption{Knuth Donald}
+ \label{fig:KD} 
+\end{figure}   
+As you can see in the figure \ref{fig:KD}. Also, in the page \pageref{fig:KD} is the same example.
+\begin{itemize}
+\item this is the first
+\item this is the second
+\item this is the third
+
+\end{itemize}
+
+\end{document}
